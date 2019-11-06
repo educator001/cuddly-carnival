@@ -1,2 +1,2 @@
 # cuddly-carnival
-a test repository
+Just a lonely HTML file!
