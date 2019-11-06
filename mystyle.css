@@ -1,3 +1,10 @@
-body {
+html {
+  height: 100%;
+  background: url('https://s1.1zoom.me/big3/296/Surface_of_planets_496619.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+  body {
   background-color: lightblue;
 }
