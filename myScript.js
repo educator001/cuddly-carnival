@@ -1,5 +1,6 @@
-var message = "Hello, world!";
+var d, message = "Hello, world!";
 
 function myFunction() {
-  document.getElementById("test-id").innerHTML = message;
+  d = new Date();
+  document.getElementById("test-id").innerHTML = d;
 }
