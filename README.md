@@ -1,2 +1,2 @@
 # cuddly-carnival
-Just a lonely HTML file!
+Just some HTML, CSS, and JavaScript, so far!
