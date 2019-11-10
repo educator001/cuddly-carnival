@@ -1,10 +1,42 @@
 html {
-  height: 100%;
-  background: url('https://s1.1zoom.me/big3/296/Surface_of_planets_496619.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
+  /* height: 100%; */
+  /* background: url('https://s1.1zoom.me/big3/296/Surface_of_planets_496619.jpg'); */
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
 }
 
   body {
   background-color: lightblue;
+}
+
+#pitch-deck {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  background-image: url('medium-image.jpg');
+  /* background-image: url('smiley.gif'); */
+  background-position: top left;
+  background-size: 100%;
+  /* -webkit-animation: mymove 5s 3; */
+  /* animation: mymove 5s 3; */
+}
+
+.playing {
+  -webkit-animation: mymove 5s 3; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s 3;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  50% {
+    background-position: center;
+    background-size: 200%;
+  }
+}
+
+@keyframes mymove {
+  50% {
+    background-position: center;
+    background-size: 200%;
+  }
 }
